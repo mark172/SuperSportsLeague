@@ -1,0 +1,28 @@
+﻿.errorValidation {
+    color: red;
+    font-family: 'Palatino Linotype';
+}
+
+.Grid td {
+    background-color: #eee !important;
+    color: black;
+    font-family: Arial;
+    font-size: 10pt;
+    line-height: 200%;
+    cursor: pointer;
+    width: 80px;
+}
+
+.Grid th {
+    background-color: #6C6C6C !important;
+    color: White;
+    font-family: Arial;
+    font-size: 10pt;
+    /*line-height: 200%;*/
+    width: 300px;
+    text-align: center;
+}
+
+#hyperLinks {
+    text-decoration: none;
+}
