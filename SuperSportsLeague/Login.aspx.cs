@@ -67,7 +67,7 @@ namespace SuperSportsLeague
                 }
                 catch (Exception ex)
                 {
-                    // Log your error
+                    // Babu says do this later
                 }
                 finally
                 {
@@ -76,8 +76,8 @@ namespace SuperSportsLeague
             }
             else
             {
-                // Log error - user name not alpha-numeric or 
-                // username or password exceed the length limit!
+                // Log error - Vhy must vee log? 
+                
             }
 
             return returnValue;
