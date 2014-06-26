@@ -45,12 +45,6 @@
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content container small">
-					<!--<header>
-						<h2>Hey.</h2>
-					</header>-->
-					<!--<p>Welcome to <strong>Big Picture</strong> a responsive site template designed
-					by <a href="http://html5up.net">HTML5 UP</a>, built on <a href="http://skeljs.org">skelJS</a>,
-					and released for free under the <a href="http://html5up.net/license/">Creative Commons Attribution 3.0 license</a>.</p>-->
 					<footer class="customFooter">
 						<a href="#about" class="button style2 down">More</a>
 					</footer>
@@ -74,7 +68,7 @@
 				<a href="#one" class="button style2 down anchored">Next</a>
 			</section>
         
-        <!-- One -->
+        <!-- Hardball / one -->
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -85,7 +79,7 @@
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
 		
-		<!-- Two -->
+		<!-- Football / two -->
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -97,7 +91,7 @@
 			</section>
 
 
-        <!-- Three -->
+        <!-- basketball / Three -->
 			<section id="three" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
@@ -119,8 +113,6 @@
 						<p>Fill out this form and we'll get in touch with you ASAP!</p>
 					</header>
 					<div class="box container small">
-					
-
 							<form id="form1" runat="server">
 								<div class="row half">
                                     <div class="6u"><asp:TextBox ID="txtName" placeholder="Name" runat="server"></asp:TextBox><asp:RequiredFieldValidator ID="RequiredFieldValidatorName" runat="server" CssClass="errorValidation" ErrorMessage="Name is required" ControlToValidate="txtName" Display="Dynamic"></asp:RequiredFieldValidator></div>
@@ -165,9 +157,7 @@
 					<ul class="menu">
 						<li>&copy; Super Sports League</li>
                         <li><asp:HyperLink ID="hyperLinks" NavigateUrl="~/LogIn.aspx" runat="server">Admin</asp:HyperLink></li>		
-					</ul>
-			
+					</ul>		
 			</footer>
-
 	</body>
 </html>
