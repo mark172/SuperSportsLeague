@@ -63,7 +63,7 @@ namespace SuperSportsLeague
 
         private void ClearForm()
         {
-            if (!IsPostBack)
+            if (IsPostBack)
             {
                 txtName.Text = string.Empty;
                 txtEmail.Text = string.Empty;
