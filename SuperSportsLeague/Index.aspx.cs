@@ -20,11 +20,8 @@ namespace SuperSportsLeague
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             InsertToDatabase();
-
-            SendContactEmail();
-
+            //SendContactEmail();
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Your information was submitted successfully. You will be contacted shortly.')", true);
-
             ClearForm();
         }
 
@@ -51,12 +48,7 @@ namespace SuperSportsLeague
             }
             catch (Exception ex)
             {
-
-                Console.WriteLine(ex);
-                if (ex.InnerException != null)
-                {
-                    Console.WriteLine("Inner Exception: {0}", ex.InnerException);
-                }
+                Response.Redirect("~/ErrorPages/Error.aspx");
             }
         }
 
