@@ -67,7 +67,7 @@ namespace SuperSportsLeague
                 }
                 catch (Exception ex)
                 {
-                    // Babu says do this later
+                    Response.Redirect("~/ErrorPages/505Error.aspx");
                 }
                 finally
                 {
