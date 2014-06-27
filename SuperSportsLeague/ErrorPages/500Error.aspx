@@ -4,14 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"  />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
     <title>500 - Internal Server Error</title>
-</head>
-<body>
 
     <link href="../css/errorPages.css" rel="stylesheet" />
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <script src="../js/wordsearch-resize.js"></script>
     <script src="../js/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+
     
     	
 	<!-- FAVICON -->
