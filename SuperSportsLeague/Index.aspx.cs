@@ -48,7 +48,7 @@ namespace SuperSportsLeague
             }
             catch (Exception ex)
             {
-                Response.Redirect("~/ErrorPages/Error.aspx");
+                Response.Redirect("~/ErrorPages/500Error.aspx");
             }
         }
 

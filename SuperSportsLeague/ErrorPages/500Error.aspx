@@ -9,10 +9,10 @@
 
     <title>500 - Internal Server Error</title>
 
-    <link href="../css/errorPages.css" rel="stylesheet" />
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-    <script src="../js/wordsearch-resize.js"></script>
-    <script src="../js/jquery.min.js"></script>
+    <link href="/css/errorPages.css" rel="stylesheet" />
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/wordsearch-resize.js"></script>
 
 
 </head>
@@ -22,7 +22,7 @@
     
     	
 	<!-- FAVICON -->
-	<link rel="shortcut icon" href="/path/to/favicon.gif">
+<%--	<link rel="shortcut icon" href="/path/to/favicon.gif">--%>
 	
 	<script type="text/javascript">
 	$(function() {
