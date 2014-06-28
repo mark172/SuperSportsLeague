@@ -124,24 +124,21 @@
 	<div id="main-content">
 		<h1>Something went wrong at our end. Sorry about that.</h1>
 		<p>Unfortunately our servers are having trouble loading this page. Don't worry, it's not you - it's us. An unexpected condition was encountered and we're not exactly sure what the problem is.</p>
-		<p>Try reloading this page and check the URL you entered for any mistakes. Alternatively, search for whatever is missing or take a look around the rest of our site.</p>
+		<p>Try reloading this page and check the URL you entered for any mistakes.</p>
 		
 		<!-- === SEARCH FORM === -->
-		<div id="search">
+		<%--<div id="search">
 			<form id="form1" runat="server">
 				<input type="text" placeholder="Search" />
 				<button type="submit" class="input-search">
                 	<i class="fa fa-search"></i>
             	</button>
 			</form>
-		</div>
+		</div>--%>
 		
 		<!-- === NAVIGATION BUTTONS === -->
 		<div id="navigation">
-			<a class="navigation" href="#">Home</a>
-			<a class="navigation" href="#">About Us</a>
-			<a class="navigation" href="#">Site Map</a>
-			<a class="navigation" href="#">Contact</a>
+            <asp:HyperLink ID="HyperLink1" CssClass="navigation" NavigateUrl="~/Index.aspx" runat="server">Home</asp:HyperLink>
 		</div>
 		
 

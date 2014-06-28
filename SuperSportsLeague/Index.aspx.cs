@@ -26,7 +26,7 @@ namespace SuperSportsLeague
         }
 
         /* insert record to databse */
-        private void InsertToDatabase()
+        public void InsertToDatabase()
         {
             try
             {
@@ -48,8 +48,10 @@ namespace SuperSportsLeague
             }
             catch (Exception ex)
             {
+                var errorMessage = ex.ToString();
                 Response.Redirect("~/ErrorPages/500Error.aspx");
             }
+
         }
 
 
@@ -82,6 +84,7 @@ namespace SuperSportsLeague
             SmtpClient client = new SmtpClient();
             client.Send(contactEmail);
         }
+
 
         /* clears all text boxes */
         private void ClearControl( Control control )
