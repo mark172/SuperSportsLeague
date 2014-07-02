@@ -20,7 +20,7 @@ namespace SuperSportsLeague
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             InsertToDatabase();
-            //SendContactEmail();
+            SendContactEmail();
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Your information was submitted successfully. You will be contacted shortly.')", true);
             ClearForm();
         }

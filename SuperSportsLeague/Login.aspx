@@ -23,7 +23,7 @@
         </div>
         <div>
             <br />
-            <asp:HyperLink ID="hyperLinks" NavigateUrl="~/Index.aspx" runat="server">Return Home</asp:HyperLink>
+            <asp:Button ID="Button1" PostBackUrl="~/Index.aspx" runat="server" Text="Return Home" />
         </div>
     </form>
 </body>

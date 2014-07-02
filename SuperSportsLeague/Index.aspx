@@ -59,11 +59,12 @@
 					</header>
 					<p>The SUPER SPORTS LEAGUE is the most dynamic sports league in the world. 
                         Professional athletes participating in Unlimited Arc Hardball, Flag Football and Basketball.   
-                        This three pronged sports competition will have one Champion for each sport with an overall 
+                        This three pronged sports competition will have one winner for each sport with an overall 
                         Champion being determined/crowned by a lowest to highest accumulated score.  
-                        To win the overall championship, teams much participate in all three sports.</p>
+                        To win the overall championship, teams must participate in all three sports.</p>
                     <br />
-                    <p>15 competitors will be placed on each roster with a maximum of twelve active for participation. If a player is injured he will be replaced by a reserve from the three non-roster spots.</p>
+                    <p>15 competitors will be placed on each roster with a maximum of twelve active for participation. 
+                        If a player is injured he will be replaced by a reserve from the three non-roster spots.</p>
 				</div>
 				<a href="#one" class="button style2 down anchored">Next</a>
 			</section>
@@ -74,7 +75,7 @@
 					<header>
 						<h2>Hardball</h2>
 					</header>
-					<p>40 softball games to be played doubleheader, style 3 times per week followed by 3 weeks of playoffs.</p>
+					<p>40 unlimited height hardball games to be played doubleheader style, 3 times per week, followed by 3 weeks of playoffs.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -109,7 +110,7 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content container">
 					<header>
-						<h2>Get in touch</h2>
+						<h2>Request more info</h2>
 						<p>Fill out this form and we'll get in touch with you ASAP!</p>
 					</header>
 					<div class="box container small">
