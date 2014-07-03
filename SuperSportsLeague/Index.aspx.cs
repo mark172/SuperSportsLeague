@@ -65,6 +65,7 @@ namespace SuperSportsLeague
             }
         }
 
+        /* method to send contatct form info as an email */
         private void SendContactEmail()
         {
             string senderEmail = txtEmail.Text;
@@ -73,7 +74,7 @@ namespace SuperSportsLeague
 
             contactEmail.From = new MailAddress("no-reply@supersportsleague.com");
             contactEmail.To.Add(new MailAddress("mark172@me.com"));
-            contactEmail.To.Add(new MailAddress("deansnowden@gmail.com"));
+            //contactEmail.To.Add(new MailAddress("deansnowden@gmail.com"));
 
 
             contactEmail.Subject = "Super Sports League info request";
@@ -102,7 +103,6 @@ namespace SuperSportsLeague
         protected void btnClear_Click(object sender, EventArgs e)
         {
             ClearControl(this);
-        }
-
+        }       
     }
 }
