@@ -74,7 +74,7 @@ namespace SuperSportsLeague
 
             contactEmail.From = new MailAddress("no-reply@supersportsleague.com");
             contactEmail.To.Add(new MailAddress("mark172@me.com"));
-            //contactEmail.To.Add(new MailAddress("deansnowden@gmail.com"));
+            contactEmail.To.Add(new MailAddress("deansnowden@gmail.com"));
 
 
             contactEmail.Subject = "Super Sports League info request";
